@@ -32,11 +32,14 @@ Use the command references for focused lookup. Adapt examples to the target host
 - [HTTP 502/503 errors playbook](playbooks/http-502-503-errors.md)
 - [Docker container exits immediately playbook](playbooks/docker-container-exits-immediately.md)
 - [Docker container unhealthy playbook](playbooks/docker-container-unhealthy.md)
+- [High CPU usage playbook](playbooks/high-cpu-usage.md)
 - [Essential Linux commands](references/linux/essential-commands.md)
+- [Linux performance commands](references/linux/performance-commands.md)
 - [Essential networking commands](references/networking/essential-commands.md)
 - [TLS and HTTP commands](references/networking/tls-http-commands.md)
 - [Essential Docker commands](references/docker/essential-commands.md)
 - [Docker container health lab](labs/docker/container-health/README.md)
+- [CPU load laboratory](labs/linux/cpu-load/README.md)
 - [Playbook template](templates/playbook-template.md)
 
 ## Documentation conventions
