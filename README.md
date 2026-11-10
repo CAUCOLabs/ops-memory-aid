@@ -30,9 +30,13 @@ Use the command references for focused lookup. Adapt examples to the target host
 - [Connection refused or timed out playbook](playbooks/connection-refused-or-timeout.md)
 - [TLS certificate verification failure playbook](playbooks/tls-certificate-verification-failure.md)
 - [HTTP 502/503 errors playbook](playbooks/http-502-503-errors.md)
+- [Docker container exits immediately playbook](playbooks/docker-container-exits-immediately.md)
+- [Docker container unhealthy playbook](playbooks/docker-container-unhealthy.md)
 - [Essential Linux commands](references/linux/essential-commands.md)
 - [Essential networking commands](references/networking/essential-commands.md)
 - [TLS and HTTP commands](references/networking/tls-http-commands.md)
+- [Essential Docker commands](references/docker/essential-commands.md)
+- [Docker container health lab](labs/docker/container-health/README.md)
 - [Playbook template](templates/playbook-template.md)
 
 ## Documentation conventions
@@ -47,7 +51,9 @@ Use the command references for focused lookup. Adapt examples to the target host
 
 ## Current scope
 
-Stage 1 focuses on Linux-hosted application troubleshooting, essential Linux operational commands, and a reusable playbook format. The repository will grow around practical operational problems as they are documented and reviewed.
+The repository currently covers Linux-hosted application troubleshooting, DNS and connectivity failures, TLS verification, HTTP 502/503 responses, and Docker container diagnostics. Command references provide focused lookup, while the Docker container health lab reproduces healthy, exited, unhealthy, and recovery scenarios.
+
+The Docker lab scenarios were executed on macOS with Docker Engine 28.3.2 and Docker Compose v2.38.2-desktop.1 on November 10, 2026. This validation applies to the lab scenarios only; other troubleshooting procedures may be illustrative or require environment-specific verification.
 
 ## License
 
