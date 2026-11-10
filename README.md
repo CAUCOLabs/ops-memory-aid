@@ -26,7 +26,10 @@ Use the command references for focused lookup. Adapt examples to the target host
 ## Quick navigation
 
 - [Application unresponsive playbook](playbooks/application-unresponsive.md)
+- [DNS resolution failure playbook](playbooks/dns-resolution-failure.md)
+- [Connection refused or timed out playbook](playbooks/connection-refused-or-timeout.md)
 - [Essential Linux commands](references/linux/essential-commands.md)
+- [Essential networking commands](references/networking/essential-commands.md)
 - [Playbook template](templates/playbook-template.md)
 
 ## Documentation conventions
