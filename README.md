@@ -28,8 +28,11 @@ Use the command references for focused lookup. Adapt examples to the target host
 - [Application unresponsive playbook](playbooks/application-unresponsive.md)
 - [DNS resolution failure playbook](playbooks/dns-resolution-failure.md)
 - [Connection refused or timed out playbook](playbooks/connection-refused-or-timeout.md)
+- [TLS certificate verification failure playbook](playbooks/tls-certificate-verification-failure.md)
+- [HTTP 502/503 errors playbook](playbooks/http-502-503-errors.md)
 - [Essential Linux commands](references/linux/essential-commands.md)
 - [Essential networking commands](references/networking/essential-commands.md)
+- [TLS and HTTP commands](references/networking/tls-http-commands.md)
 - [Playbook template](templates/playbook-template.md)
 
 ## Documentation conventions
