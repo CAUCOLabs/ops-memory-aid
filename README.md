@@ -33,13 +33,16 @@ Use the command references for focused lookup. Adapt examples to the target host
 - [Docker container exits immediately playbook](playbooks/docker-container-exits-immediately.md)
 - [Docker container unhealthy playbook](playbooks/docker-container-unhealthy.md)
 - [High CPU usage playbook](playbooks/high-cpu-usage.md)
+- [Linux memory pressure playbook](playbooks/linux-memory-pressure.md)
 - [Essential Linux commands](references/linux/essential-commands.md)
 - [Linux performance commands](references/linux/performance-commands.md)
+- [Linux memory commands](references/linux/memory-commands.md)
 - [Essential networking commands](references/networking/essential-commands.md)
 - [TLS and HTTP commands](references/networking/tls-http-commands.md)
 - [Essential Docker commands](references/docker/essential-commands.md)
 - [Docker container health lab](labs/docker/container-health/README.md)
 - [CPU load laboratory](labs/linux/cpu-load/README.md)
+- [Memory pressure laboratory](labs/linux/memory-pressure/README.md)
 - [Playbook template](templates/playbook-template.md)
 
 ## Documentation conventions
@@ -54,7 +57,7 @@ Use the command references for focused lookup. Adapt examples to the target host
 
 ## Current scope
 
-The repository currently covers Linux-hosted application troubleshooting, DNS and connectivity failures, TLS verification, HTTP 502/503 responses, and Docker container diagnostics. Command references provide focused lookup, while the Docker container health lab reproduces healthy, exited, unhealthy, and recovery scenarios.
+The repository currently covers Linux-hosted application troubleshooting, DNS and connectivity failures, TLS verification, HTTP 502/503 responses, Docker container diagnostics, CPU usage, and Linux memory troubleshooting. Command references provide focused lookup, while the Docker container health lab reproduces healthy, exited, unhealthy, and recovery scenarios.
 
 The Docker lab scenarios were executed on macOS with Docker Engine 28.3.2 and Docker Compose v2.38.2-desktop.1 on November 10, 2026. This validation applies to the lab scenarios only; other troubleshooting procedures may be illustrative or require environment-specific verification.
 
