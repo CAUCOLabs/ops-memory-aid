@@ -35,6 +35,7 @@ Use the command references for focused lookup. Adapt examples to the target host
 - [High CPU usage playbook](playbooks/high-cpu-usage.md)
 - [Linux memory pressure playbook](playbooks/linux-memory-pressure.md)
 - [Linux processes and services troubleshooting playbook](playbooks/linux-processes-services-troubleshooting.md)
+- [Linux TCP connection troubleshooting playbook](playbooks/linux-tcp-connection-troubleshooting.md)
 - [Linux disk and filesystem troubleshooting playbook](playbooks/linux-disk-filesystem-troubleshooting.md)
 - [Essential Linux commands](references/linux/essential-commands.md)
 - [Linux performance commands](references/linux/performance-commands.md)
@@ -42,12 +43,14 @@ Use the command references for focused lookup. Adapt examples to the target host
 - [Linux process and service commands](references/linux/process-service-commands.md)
 - [Linux disk and filesystem commands](references/linux/disk-filesystem-commands.md)
 - [Essential networking commands](references/networking/essential-commands.md)
+- [TCP socket commands](references/networking/tcp-socket-commands.md)
 - [TLS and HTTP commands](references/networking/tls-http-commands.md)
 - [Essential Docker commands](references/docker/essential-commands.md)
 - [Docker container health lab](labs/docker/container-health/README.md)
 - [CPU load laboratory](labs/linux/cpu-load/README.md)
 - [Memory pressure laboratory](labs/linux/memory-pressure/README.md)
 - [Processes and services laboratory](labs/linux/processes-services/README.md)
+- [TCP states laboratory](labs/networking/tcp-states/README.md)
 - [Disk and filesystem laboratory](labs/linux/disk-filesystem/README.md)
 - [Playbook template](templates/playbook-template.md)
 
@@ -63,9 +66,9 @@ Use the command references for focused lookup. Adapt examples to the target host
 
 ## Current scope
 
-The repository covers Linux-hosted application troubleshooting, DNS and connectivity failures, TLS verification, HTTP 502/503 responses, Docker container diagnostics, CPU usage, memory pressure, disk and filesystem failures, and Linux process and service troubleshooting.
+The repository covers Linux-hosted application troubleshooting, DNS and connectivity failures, TLS verification, HTTP 502/503 responses, Docker container diagnostics, CPU usage, memory pressure, disk and filesystem failures, Linux process and service troubleshooting, and TCP connection state diagnostics.
 
-Command references provide focused lookup. Reproducible Docker-based laboratories cover container health, CPU load, memory pressure and OOM behavior, disk space and inode exhaustion, read-only filesystems, process signals and states, zombies, orphan adoption, TCP port conflicts, and permission errors.
+Command references provide focused lookup. Reproducible Docker-based laboratories cover container health, CPU load, memory pressure and OOM behavior, disk space and inode exhaustion, read-only filesystems, process signals and states, zombies, orphan adoption, TCP port conflicts, permission errors, and TCP connection lifecycle states including LISTEN, ESTABLISHED, TIME_WAIT, CLOSE_WAIT, and FIN_WAIT2.
 
 The Docker container health lab was validated on macOS with Docker Engine 28.3.2 and Docker Compose v2.38.2-desktop.1 on November 10, 2026. Additional Linux laboratories were exercised using disposable containers. Validation applies to the specific scenarios documented in each laboratory; other procedures, including systemd troubleshooting, may be illustrative or require environment-specific verification.
 
