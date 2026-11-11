@@ -34,15 +34,18 @@ Use the command references for focused lookup. Adapt examples to the target host
 - [Docker container unhealthy playbook](playbooks/docker-container-unhealthy.md)
 - [High CPU usage playbook](playbooks/high-cpu-usage.md)
 - [Linux memory pressure playbook](playbooks/linux-memory-pressure.md)
+- [Linux disk and filesystem troubleshooting playbook](playbooks/linux-disk-filesystem-troubleshooting.md)
 - [Essential Linux commands](references/linux/essential-commands.md)
 - [Linux performance commands](references/linux/performance-commands.md)
 - [Linux memory commands](references/linux/memory-commands.md)
+- [Linux disk and filesystem commands](references/linux/disk-filesystem-commands.md)
 - [Essential networking commands](references/networking/essential-commands.md)
 - [TLS and HTTP commands](references/networking/tls-http-commands.md)
 - [Essential Docker commands](references/docker/essential-commands.md)
 - [Docker container health lab](labs/docker/container-health/README.md)
 - [CPU load laboratory](labs/linux/cpu-load/README.md)
 - [Memory pressure laboratory](labs/linux/memory-pressure/README.md)
+- [Disk and filesystem laboratory](labs/linux/disk-filesystem/README.md)
 - [Playbook template](templates/playbook-template.md)
 
 ## Documentation conventions
